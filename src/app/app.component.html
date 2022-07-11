@@ -1,0 +1,25 @@
+<mat-card>
+  <form class="example-form">
+    <mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>Favorite food</mat-label>
+
+
+      
+      <input matInput placeholder="Ex. Pizza" [(ngModel)]="comida" name="comida" >
+
+    </mat-form-field>
+  
+    <mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>Leave a comment</mat-label>
+      <textarea matInput placeholder="Ex. It makes me feel..."></textarea>
+    </mat-form-field>
+  </form>
+  <section>
+  
+    <div class="example-button-row">
+      <button mat-button (click)="validar()">Enviar</button>
+     
+    </div>
+  </section>
+
+</mat-card>
